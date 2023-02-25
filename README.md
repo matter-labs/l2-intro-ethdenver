@@ -11,15 +11,13 @@ Slides are available here: https://docs.google.com/presentation/d/1BzXiZf34-1zoj
 
 This repository contains two folders:
 
-### cli-project
+## cli-project
 
 This is created with the zkSync-CLI and has the following structure.
   - `/contracts`: smart contracts.
   - `/deploy`: deployment and contract interaction scripts.
   - `/test`: test files
   - `hardhat.config.ts`: configuration file.
-
-- /web3-app: is a frontend built with Vue.js.
   
 ### Commands
 
@@ -50,7 +48,6 @@ Is a frontend build with Vue.js and it's a basic example of how to interact with
 
 - Enter the Greeter contract address in the `src/views/Home.vue` file.
 - Enter the ERC20 contract address in the `src/views/Token.vue` file.
-
 
 
 ## Workshop tasks
