@@ -38,7 +38,7 @@
 import { ref } from "vue";
 import { Contract, Provider, Web3Provider } from "zksync-web3";
 
-import * as Artifact from "../../../cli-demo/artifacts-zk/contracts/Greeter.sol/Greeter.json";
+import * as Artifact from "../../../cli-project/artifacts-zk/contracts/Greeter.sol/Greeter.json";
 
 import { useWalletStore } from "../stores/wallet";
 const GREETER_ADDRESS = "0xAf53230113dC96b9A22FF499C53dC1B4A6121640";

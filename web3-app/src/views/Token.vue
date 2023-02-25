@@ -49,7 +49,7 @@
 import { ref } from "vue";
 import { Contract, Provider, Web3Provider, utils } from "zksync-web3";
 import * as ethers from "ethers";
-import * as Artifact from "../../../cli-demo/artifacts-zk/contracts/zkToken.sol/zkToken.json";
+import * as Artifact from "../../../cli-project/artifacts-zk/contracts/zkToken.sol/zkToken.json";
 
 import { useWalletStore } from "../stores/wallet";
 const ERC20_ADDRESS = "0xEf3a536f585f798b51D52150dFFF921a9758a4Dc";
